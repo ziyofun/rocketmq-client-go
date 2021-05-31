@@ -111,6 +111,7 @@ type consumerOptions struct {
 func defaultPushConsumerOptions() consumerOptions {
 	opts := consumerOptions{
 		ClientOptions:              internal.DefaultClientOptions(),
+		ConsumeConcurrentlyMaxSpan: 3000,
 		Strategy:                   AllocateByAveragely,
 		MaxTimeConsumeContinuously: time.Duration(60 * time.Second),
 		RebalanceLockInterval:      20 * time.Second,
