@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/rocketmq-client-go/v2/internal/utils"
+	"github.com/ziyofun/rocketmq-client-go/v2/internal/utils"
 
 	"github.com/stretchr/testify/assert"
 )

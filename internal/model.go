@@ -24,10 +24,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/apache/rocketmq-client-go/v2/internal/utils"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/rlog"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/ziyofun/rocketmq-client-go/v2/internal/utils"
+	"github.com/ziyofun/rocketmq-client-go/v2/primitive"
+	"github.com/ziyofun/rocketmq-client-go/v2/rlog"
 )
 
 type FindBrokerResult struct {
